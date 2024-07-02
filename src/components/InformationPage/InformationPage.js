@@ -64,8 +64,8 @@ const InformationPage = () => {
               <CiLocationOn />
             </div>
             <div>
-              <p>Prayagraj UP 374FA Tower,</p>
-              <p>William S Blvd 2721 , IL, USA</p>
+              <p>Prayagraj,</p>
+              <p>UP India 211012</p>
             </div>
           </div>
           <div className="info-container-details">
