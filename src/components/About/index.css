@@ -178,7 +178,13 @@
 
 @media screen and (max-width: 768px) {
   .card-container {
-    width: 33%;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card-container {
+    width: 100%;
   }
 }
 

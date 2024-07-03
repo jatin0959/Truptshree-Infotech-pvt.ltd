@@ -119,6 +119,7 @@ p {
 .dropdown {
   position: relative;
   display: inline-block;
+  margin: 10px;
 }
 
 .dropdown-content {
@@ -155,6 +156,7 @@ p {
   font-weight: bold;
   border: none;
   cursor: pointer;
+  margin: auto;
 }
 
 .dropbtn {
@@ -169,6 +171,7 @@ p {
   font-weight: bold;
   border: none;
   cursor: pointer;
+  margin-left: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -208,10 +211,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .dropbtn {
-    display: none;
   }
 }
 

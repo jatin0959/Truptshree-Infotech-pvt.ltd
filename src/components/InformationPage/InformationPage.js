@@ -1,6 +1,6 @@
 import { CiFacebook } from "react-icons/ci";
-import { FaPinterestP } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 import { FaPhone } from "react-icons/fa6";
@@ -36,16 +36,24 @@ const InformationPage = () => {
           </p>
           <div className="social-icon">
             <div className="icons">
-              <CiFacebook />
+              <a href="#">
+                <CiFacebook />
+              </a>
             </div>
             <div className="icons">
-              <FaPinterestP />
+              <a href="https://www.linkedin.com/company/opam-technologies/">
+                <FaLinkedin />
+              </a>
             </div>
             <div className="icons">
-              <FaTwitter />
+              <a href=" https://x.com/OpamTechnology?t=uNPGLpOVjEe6_2SSj07YCA&s=08">
+                <FaXTwitter />
+              </a>
             </div>
             <div className="icons">
-              <FaInstagram />
+              <a href="https://www.instagram.com/opamtechnology?igsh=MWNxc3F5eHkzcWY5MQ==">
+                <FaInstagram />
+              </a>
             </div>
           </div>
         </div>
@@ -141,44 +149,6 @@ const InformationPage = () => {
           </div>
           <div>
             <p onClick="#">FAQ</p>
-          </div>
-
-          <div className="dropdown">
-            <button
-              className="nav-mobile-dropbtn-footer"
-              onClick={toggleDropdown}
-            >
-              Policy
-            </button>
-
-            {isOpen && (
-              <div className={`dropdown-content ${isOpen ? "show" : ""}`}>
-                <HashLink to="/policies#sectionPrivacyPolicy">
-                  Privacy Policy
-                </HashLink>
-                <HashLink to="/policies#sectionTermsOfService">
-                  Terms of Service
-                </HashLink>
-                <HashLink to="/policies#sectionCookiePolicy">
-                  Cookie Policy
-                </HashLink>
-                <HashLink to="/policies#sectionDataSecurityPolicy">
-                  Data Security Policy
-                </HashLink>
-                <HashLink to="/policies#sectionRefundPolicy">
-                  Refund Policy
-                </HashLink>
-                <HashLink to="/policies#sectionAccessabilityPolicy">
-                  Accessibility Policy
-                </HashLink>
-                <HashLink to="/policies#sectionAcceptablePolicy">
-                  Acceptable Use Policy
-                </HashLink>
-                <HashLink to="/policies#sectiongdprCompilance">
-                  GDPR Compliance
-                </HashLink>
-              </div>
-            )}
           </div>
 
           <div className="dropdown">

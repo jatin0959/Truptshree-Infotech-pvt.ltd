@@ -1,8 +1,8 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import "./index.css";
 
 const Header = () => {
-
   return (
     <nav className="nav-header">
       <div className="nav-content">
@@ -12,9 +12,10 @@ const Header = () => {
             src="https://res.cloudinary.com/dttnhad6r/image/upload/v1718185704/327f0fa7e05733e7f22d51396ff821cb_y5iugk.png"
             alt="website logo"
           />
-
+          <Link to = "/internship" >
           <button className="nav-mobile-internship-btn">InternShip</button>
-        </div> 
+          </Link>
+        </div>
 
         <div className="nav-bar-large-container">
           <img
@@ -72,8 +73,9 @@ const Header = () => {
               </a>
             </li>
           </ul>
-
+          <Link to = "/internship" >
           <button className="internship-btn">InternShip</button>
+          </Link>
         </div>
       </div>
       <div className="nav-menu-mobile">

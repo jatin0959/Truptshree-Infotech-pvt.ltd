@@ -137,3 +137,15 @@
     margin-right: 20px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .services-page-heading {
+    font-size: 20px;
+  }
+
+  .services-page-card {
+    width: 100%;
+    min-height: 300px;
+    max-height: auto;
+  }
+}

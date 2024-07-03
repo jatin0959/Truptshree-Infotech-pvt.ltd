@@ -3,7 +3,8 @@
   justify-content: space-between;
   border-bottom: 4px solid rgb(243, 243, 243);
   height: 80px;
-  width: 100vw;
+  min-width: 100%;
+  max-width: 100%;
 }
 
 .link {
@@ -22,9 +23,11 @@
 
 .nav-content {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   justify-content: flex-end;
-  width: 90%;
+  min-width: 100%;
+  max-width: 100%;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -99,8 +102,8 @@
 
 .nav-bar-mobile-logo-container {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
   height: 100px;
 }
 
@@ -144,6 +147,7 @@
   align-self: flex-end;
   flex: 1;
   list-style-type: none;
+  padding: 0px;
   margin-bottom: 60px;
 }
 
@@ -217,9 +221,6 @@
   .internship-btn {
     display: none;
   }
-  .dropbtn {
-    display: none;
-  }
 }
 
 .nav-mobile-internship-btn {
@@ -236,7 +237,7 @@
   border: none;
   cursor: pointer;
   margin-top: 60px;
-  margin-left: 200px;
+  margin-left: auto;
 }
 
 .nav-mobile-dropbtn {

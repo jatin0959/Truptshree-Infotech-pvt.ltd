@@ -26,6 +26,24 @@
   text-align: center;
 }
 
+.team-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 8px;
+}
+
 .team-img {
   height: 300px;
   width: 300px;
@@ -49,7 +67,23 @@
   background-color: blue;
 }
 
+.circle {
+  border-radius: 50%;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .team-img {
+    height: 250px;
+    width: 250px;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .team-card {
+    width: 100%;
+  }
+
   .team-img {
     height: 200px;
     width: 200px;

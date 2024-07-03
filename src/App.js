@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
-import { Route, Routes } from 'react-router-dom';
-import './App.css';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
 
 //import Animation from './images/welcomeAnimation.gif';
-import HomePage from './components/HomePage';
-import PolicyPage from './components/PoliciesPage';
-
-const App =()=> {
-  const [loading, setLoading] = useState(true);
+import HomePage from "./components/HomePage";
+import PolicyPage from "./components/PoliciesPage";
+import InternshipPage from "./components/InternshipPage";
+/*const [loading, setLoading] = useState(true);
   const spinner = document.getElementById("spinner");
   if (spinner) {
     setTimeout(() => {
@@ -15,15 +14,13 @@ const App =()=> {
       setLoading(false);
     }, 2000);
   }
+    */
 
-  return (
-    !loading && (
-        <Routes>
-          <Route exact path="/" element={<HomePage />} />
-          <Route exact path="/policies" element={<PolicyPage />} />
-        </Routes>
-    )
-  );
-}
-
+const App = () => (
+  <Routes>
+    <Route exact path="/" element={<HomePage />} />
+    <Route exact path="/policies" element={<PolicyPage />} />
+    <Route exact path="/internship" element={<InternshipPage />} />
+  </Routes>
+);
 export default App;
