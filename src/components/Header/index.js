@@ -12,7 +12,7 @@ const Header = () => {
             src="https://res.cloudinary.com/dttnhad6r/image/upload/v1718185704/327f0fa7e05733e7f22d51396ff821cb_y5iugk.png"
             alt="website logo"
           />
-          <Link to = "/internship" >
+          <Link to = "/internship" className="internship-link">
           <button className="nav-mobile-internship-btn">InternShip</button>
           </Link>
         </div>
