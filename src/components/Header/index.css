@@ -221,6 +221,9 @@
   .internship-btn {
     display: none;
   }
+  .internship-link {
+    margin-left: auto;
+  }
 }
 
 .nav-mobile-internship-btn {
