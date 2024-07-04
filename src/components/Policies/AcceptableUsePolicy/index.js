@@ -7,13 +7,6 @@ const AcceptableUsePolicy = () => (
     id="sectionAcceptablePolicy"
   >
     <div className="acceptable-policy-container">
-      <h2 className="acceptable-policy-purpose">
-        Purpose :{" "}
-        <span className="acceptable-purpose-span">
-          Define what constitutes acceptable and unacceptable use of the
-          company's services and products.
-        </span>
-      </h2>
       <p className="acceptable-policy-item-heading">
         Prohibited Activities: <br />
         <p className="acceptable-policy-item-description">

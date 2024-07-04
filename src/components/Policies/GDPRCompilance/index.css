@@ -87,13 +87,19 @@
 }
 
 @media screen and (max-width: 768px) {
+  .gdpr-compilance-background-main {
+    padding: 0px;
+    padding-top: 20px;
+  }
+
   .gdpr-compilance-purpose {
     font-size: 20px;
   }
 
   .gdpr-compilance-container {
     width: 90%;
-    padding: 15px;
+    padding: 10px;
+    padding-top: 20px;
   }
 
   .gdpr-compilance-item-heading {

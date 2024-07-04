@@ -87,13 +87,19 @@
 }
 
 @media screen and (max-width: 768px) {
+  .policy-background-main {
+    padding: 0px;
+    padding-top: 20px;
+  }
+
   .policy-purpose {
     font-size: 20px;
   }
 
   .privacy-policy-container {
     width: 90%;
-    padding: 15px;
+    padding: 10px;
+    padding-top: 20px;
   }
 
   .policy-item-heading {

@@ -1,4 +1,4 @@
-.acceptable-policy-background-main {
+.client-privacy-policy-background-main {
   min-height: 100vh;
   max-height: 100%;
   padding: 20px;
@@ -10,7 +10,7 @@
   background-color: #e0e0e0;
 }
 
-.acceptable-policy-container {
+.client-privacy-policy-container {
   background-color: antiquewhite;
   border-radius: 15px;
   padding: 20px;
@@ -25,24 +25,24 @@
   padding: 30px;
 }
 
-.acceptable-policy-purpose {
+.client-privacy-policy-purpose {
   text-align: center;
   font-family: "Roboto";
   color: #0047ab;
 }
 
-.acceptable-purpose-span {
+.client-privacy-policy-purpose-span {
   font-size: 20px;
 }
 
-.acceptable-policy-item-heading {
+.client-privacy-policy-item-heading {
   font-size: 22px;
   font-family: "Roboto";
   font-weight: bold;
   margin-bottom: 25px;
 }
 
-.acceptable-policy-item-description {
+.client-privacy-policy-item-description {
   padding-left: 20px;
   font-family: "Roboto";
   font-size: 18px;
@@ -57,7 +57,7 @@
   align-items: center;
 }
 
-.acceptable-policy-item-description {
+.client-privacy-policy-item-description {
   font-size: 16px;
   color: #555555;
 }
@@ -87,30 +87,30 @@
 }
 
 @media screen and (max-width: 768px) {
-  .acceptable-policy-background-main {
+  .client-privacy-policy-background-main {
     padding: 0px;
     padding-top: 20px;
   }
 
-  .acceptable-policy-purpose {
+  .client-privacy-policy-purpose {
     font-size: 20px;
   }
 
-  .acceptable-policy-container {
+  .client-privacy-policy-container {
     width: 90%;
     padding: 10px;
     padding-top: 20px;
   }
 
-  .acceptable-policy-item-heading {
+  .client-privacy-policy-item-heading {
     font-size: 18px;
   }
 
-  .acceptable-policy-item-description {
+  .client-privacy-policy-item-description {
     font-size: 16px;
   }
 
-  .acceptable-purpose-span {
+  .client-privacy-policy-purpose-span {
     font-size: 16px;
   }
 }

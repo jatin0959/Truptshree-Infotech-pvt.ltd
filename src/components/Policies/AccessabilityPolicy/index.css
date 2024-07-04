@@ -87,13 +87,19 @@
 }
 
 @media screen and (max-width: 768px) {
+  .accessability-policy-background-main {
+    padding: 0px;
+    padding-top: 20px;
+  }
+
   .accessability-policy-purpose {
     font-size: 20px;
   }
 
   .accessability-policy-container {
     width: 90%;
-    padding: 15px;
+    padding: 10px;
+    padding-top: 20px;
   }
 
   .accessability-policy-item-heading {

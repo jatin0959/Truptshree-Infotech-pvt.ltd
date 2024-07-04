@@ -87,13 +87,19 @@
 }
 
 @media screen and (max-width: 768px) {
+  .tos-background-main {
+    padding: 0px;
+    padding-top: 20px;
+  }
+
   .tos-purpose {
     font-size: 20px;
   }
 
   .tos-container {
     width: 90%;
-    padding: 15px;
+    padding: 10px;
+    padding-top: 20px;
   }
 
   .tos-item-heading {

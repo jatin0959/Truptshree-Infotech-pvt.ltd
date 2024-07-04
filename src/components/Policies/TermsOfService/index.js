@@ -4,13 +4,6 @@ import "./index.css";
 const TermsOfService = () => (
   <div className="tos-background-main" id="sectionTermsOfService">
     <div className="tos-container">
-      <h2 className="tos-purpose">
-        Purpose :{" "}
-        <span className="tos-purpose-span">
-          Outline the rules and regulations for using the company's software and
-          services.
-        </span>
-      </h2>
       <p className="tos-item-heading">
         User Responsibilities: <br />
         <p className="tos-item-description">

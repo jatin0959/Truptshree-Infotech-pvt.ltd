@@ -87,13 +87,19 @@
 }
 
 @media screen and (max-width: 768px) {
+  .datasecurity-policy-background-main {
+    padding: 0px;
+    padding-top: 20px;
+  }
+
   .datasecurity-policy-purpose {
     font-size: 20px;
   }
 
   .datasecurity-policy-container {
     width: 90%;
-    padding: 15px;
+    padding: 10px;
+    padding-top: 20px;
   }
 
   .datasecurity-policy-item-heading {

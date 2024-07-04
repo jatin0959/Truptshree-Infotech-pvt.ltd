@@ -77,6 +77,8 @@ body {
   font-family: "Roboto";
   font-size: 30px;
   text-align: center;
+  align-self: center;
+  align-content: center;
 }
 
 .internship-section-description {
@@ -167,12 +169,13 @@ body {
   font-size: 37px;
 }
 
+.social-media-link {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
   .internships-section {
-    padding-left: 10px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
   }
 
   .internship-section-cards-container {
@@ -184,5 +187,7 @@ body {
 
   .internship-section-card {
     width: 100%;
+    margin: 0px;
+    margin-bottom: 7px;
   }
 }

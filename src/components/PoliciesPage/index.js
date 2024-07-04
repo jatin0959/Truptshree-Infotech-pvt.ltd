@@ -10,6 +10,7 @@ import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
 import "./index.css";
+import ClientPrivacyPolicy from "../Policies/ClientPrivacyPolicy";
 
 const logos = [
   {
@@ -94,6 +95,7 @@ const PolicyPage = () => {
           <DataSecurityPolicy />
           <GDPRCompilance />
           <RefundPolicy />
+          <ClientPrivacyPolicy />
         </>
       )}
     </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./index.css";
 
 const InternshipPage = () => (
@@ -47,24 +48,38 @@ const InternshipPage = () => (
 
     <div className="internship-footer">
       <h2 className="internship-footer-heading">About Us</h2>
-      <a className="privacy-link" href="/">
+      <Link className="privacy-link" to="/policies">
         Privacy Policy
-      </a>
+      </Link>
       <div className="internship-footer-buttons-container">
         <button className="internship-footer-button">
-          <i className="fa-brands fa-facebook icon"></i>
+          <Link to="#" className="social-media-link">
+            <i className="fa-brands fa-facebook icon"></i>
+          </Link>
         </button>
 
         <button className="internship-footer-button">
-          <i className="fa-brands fa-instagram icon"></i>
+          <a
+            href="https://www.instagram.com/opamtechnology?igsh=MWNxc3F5eHkzcWY5MQ=="
+            className="social-media-link"
+          >
+            <i className="fa-brands fa-instagram icon"></i>
+          </a>
         </button>
 
         <button className="internship-footer-button">
-          <i className="fa-brands fa-telegram icon"></i>
+          <Link to="#" className="social-media-link">
+            <i className="fa-brands fa-telegram icon"></i>
+          </Link>
         </button>
 
         <button className="internship-footer-button">
-          <i className="fa-brands fa-linkedin icon"></i>
+          <a
+            href="https://www.linkedin.com/company/opam-technologies/"
+            className="social-media-link"
+          >
+            <i className="fa-brands fa-linkedin icon"></i>
+          </a>
         </button>
       </div>
     </div>

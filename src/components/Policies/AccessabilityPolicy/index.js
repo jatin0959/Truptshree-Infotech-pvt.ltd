@@ -7,13 +7,6 @@ const AccessabilityPolicy = () => (
     id="sectionAccessabilityPolicy"
   >
     <div className="accessability-policy-container">
-      <h2 className="accessability-policy-purpose">
-        Purpose :{" "}
-        <span className="accessability-policy-purpose-span">
-          Ensure services and products are accessible to all users, including
-          those with disabilities.
-        </span>
-      </h2>
       <p className="accessability-policy-item-heading">
         Standards Compliance: <br />
         <p className="accessability-policy-item-description">

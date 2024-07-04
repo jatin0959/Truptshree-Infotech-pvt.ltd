@@ -4,12 +4,6 @@ import "./index.css";
 const PrivacyPolicy = () => (
   <div className="policy-background-main" id="sectionPrivacyPolicy">
     <div className="privacy-policy-container">
-      <h2 className="policy-purpose">
-        Purpose :{" "}
-        <span className="policy-purpose-span">
-          How the company collects, uses, and protects user data.
-        </span>
-      </h2>
       <p className="policy-item-heading">
         Data Collection: <br />
         <p className="policy-item-description">

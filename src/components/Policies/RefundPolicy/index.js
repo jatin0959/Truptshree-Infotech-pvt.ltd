@@ -4,13 +4,6 @@ import "./index.css";
 const RefundPolicy = () => (
   <div className="refund-policy-background-main" id="sectionRefundPolicy">
     <div className="refund-policy-container">
-      <h2 className="refund-policy-purpose">
-        Purpose :{" "}
-        <span className="refund-policy-purpose-span">
-          Outline terms and conditions related to refunds for any paid services
-          or products.
-        </span>
-      </h2>
       <p className="refund-policy-item-heading">
         Eligibility <br />
         <p className="refund-policy-item-description">

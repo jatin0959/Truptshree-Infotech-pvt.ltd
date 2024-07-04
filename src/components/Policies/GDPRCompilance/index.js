@@ -4,13 +4,6 @@ import "./index.css";
 const GDPRCompilance = () => (
   <div className="gdpr-compilance-background-main" id="sectiongdprCompilance">
     <div className="gdpr-compilance-container">
-      <h2 className="gdpr-compilance-purpose">
-        Purpose :{" "}
-        <span className="gdpr-compilance-purpose-span">
-          Provide information on how the company complies with the General Data
-          Protection Regulation (GDPR), if applicable.
-        </span>
-      </h2>
       <p className="gdpr-compilance-item-heading">
         Data Subject Rights: <br />
         <p className="gdpr-compilance-item-description">

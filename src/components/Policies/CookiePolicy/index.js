@@ -4,14 +4,6 @@ import "./index.css";
 const CookiePolicy = () => (
   <div className="cookie-policy-background-main" id="sectionCookiePolicy">
     <div className="cookie-policy-container">
-      <h2 className="cookie-policy-purpose">
-        Purpose :{" "}
-        <span className="cookie-policy-purpose-span">
-          Inform users about the use of cookies on the website and how they can
-          manage their preferences.
-        </span>
-      </h2>
-
       <p className="cookie-policy-item-heading">
         Types of Cookies: <br />
         <p className="cookie-policy-item-description">

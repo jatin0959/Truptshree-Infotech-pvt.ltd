@@ -9,6 +9,7 @@ import { FaLink } from "react-icons/fa6";
 import { FaRegClock } from "react-icons/fa";
 import { IoIosSend } from "react-icons/io";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import "./index.css";
 
@@ -36,9 +37,9 @@ const InformationPage = () => {
           </p>
           <div className="social-icon">
             <div className="icons">
-              <a href="#">
+              <Link to="#">
                 <CiFacebook />
-              </a>
+              </Link>
             </div>
             <div className="icons">
               <a href="https://www.linkedin.com/company/opam-technologies/">
@@ -181,6 +182,9 @@ const InformationPage = () => {
                 </HashLink>
                 <HashLink to="/policies#sectiongdprCompilance">
                   GDPR Compliance
+                </HashLink>
+                <HashLink to="/policies#sectionClientPrivacyPolicy">
+                  Client Privacy Policy
                 </HashLink>
               </div>
             )}

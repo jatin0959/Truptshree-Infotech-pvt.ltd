@@ -7,13 +7,6 @@ const DataSecurityPolicy = () => (
     id="sectionDataSecurityPolicy"
   >
     <div className="datasecurity-policy-container">
-      <h2 className="datasecurity-policy-purpose">
-        Purpose :{" "}
-        <span className="datasecurity-policy-purpose-span">
-          Provide an overview of how the company ensures the security of user
-          data.
-        </span>
-      </h2>
       <p className="datasecurity-policy-item-heading">
         Security Measures: <br />
         <p className="datasecurity-policy-item-description">
