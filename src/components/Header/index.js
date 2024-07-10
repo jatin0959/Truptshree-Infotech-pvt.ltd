@@ -1,10 +1,10 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
+import { useState } from "react";
 import "./index.css";
 
-const Header = () => {
-  return (
-    <nav className="nav-header">
+/*
+<nav className="nav-header">
       <div className="nav-content">
         <div className="nav-bar-mobile-logo-container">
           <img
@@ -161,6 +161,133 @@ const Header = () => {
           </li>
         </ul>
       </div>
+    </nav>
+*/
+
+const Header = () => {
+  const [showSmallNav, toggleSmallNav] = useState(false);
+
+  const changeToggleNav = () => {
+    toggleSmallNav((prevState) => !prevState);
+  };
+
+  return (
+    <nav className="header">
+      <div className="header-inner-large">
+        <img
+          src="https://res.cloudinary.com/daxizvsge/image/upload/v1720595613/Screenshot_2024-07-10_124251_yi16zd.png"
+          alt="opam-logo"
+          className="opam-logo"
+        />
+        <ul className="large-header-navigations-container">
+          <li className="navigation-item">
+            <a className="nav-link" href="#sectionHome">
+              Home
+            </a>
+          </li>
+
+          <li className="navigation-item">
+            <a className="nav-link" href="#sectionAbout">
+              About
+            </a>
+          </li>
+
+          <li className="navigation-item">
+            <a className="nav-link" href="#sectionServices">
+              Services
+            </a>
+          </li>
+
+          <li className="navigation-item">
+            <a className="nav-link" href="#sectionPortfolios">
+              Portfolios
+            </a>
+          </li>
+
+          <li className="navigation-item">
+            <a className="nav-link" href="#sectionTeam">
+              Team
+            </a>
+          </li>
+
+          <li className="navigation-item">
+            <a className="nav-link" href="#sectionBlog">
+              Blog
+            </a>
+          </li>
+
+          <li className="navigation-item">
+            <a className="nav-link" href="#sectionContact">
+              Contact
+            </a>
+          </li>
+
+          <li className="navigation-item">
+            <a className="nav-link" href="#sectionAbout">
+              Product
+            </a>
+          </li>
+        </ul>
+        <Link to="/internship" className="internship-link">
+          <button className="internship-button">Internship</button>
+        </Link>
+        <button className="menu-button" onClick={() => changeToggleNav()}>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+      <ul
+        className={
+          showSmallNav ? "small-header-navigations-container" : "close"
+        }
+      >
+        <li className="navigation-item">
+          <a className="nav-link" href="#sectionHome">
+            Home
+          </a>
+        </li>
+
+        <li className="navigation-item">
+          <a className="nav-link" href="#sectionAbout">
+            About
+          </a>
+        </li>
+
+        <li className="navigation-item">
+          <a className="nav-link" href="#sectionServices">
+            Services
+          </a>
+        </li>
+
+        <li className="navigation-item">
+          <a className="nav-link" href="#sectionPortfolios">
+            Portfolios
+          </a>
+        </li>
+
+        <li className="navigation-item">
+          <a className="nav-link" href="#sectionTeam">
+            Team
+          </a>
+        </li>
+
+        <li className="navigation-item">
+          <a className="nav-link" href="#sectionBlog">
+            Blog
+          </a>
+        </li>
+
+        <li className="navigation-item">
+          <a className="nav-link" href="#sectionContact">
+            Contact
+          </a>
+        </li>
+
+        <li className="navigation-item">
+          <a className="nav-link" href="#sectionAbout">
+            Product
+          </a>
+        </li>
+      </ul>
     </nav>
   );
 };

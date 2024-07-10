@@ -131,6 +131,7 @@ p {
   z-index: 1;
   bottom: 100%;
   transform: translateY(-10px);
+  right: 10%;
 }
 
 .dropdown-content a {
