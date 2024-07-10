@@ -357,6 +357,8 @@
   width: 100px;
   background-color: white;
   margin-top: 0px;
+  overflow: hidden;
+  display: none;
 }
 
 @keyframes slide-out {
@@ -365,6 +367,12 @@
   }
   to {
     transform: translateX(100%);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .close {
+    display: none;
   }
 }
 
@@ -404,7 +412,7 @@
     position: absolute;
     background-color: white;
     right: 0px;
-    width: 100px;
+    width: 150px;
     transform: translateX(100%);
     animation: slide-in 0.5s forwards ease-in-out;
   }
@@ -428,6 +436,7 @@
     border-top: none;
     border-right: none;
     border-left: none;
+    padding-bottom: 15px;
   }
 
   .nav-link {
