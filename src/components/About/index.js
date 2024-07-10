@@ -125,7 +125,9 @@ const About = () => {
             </div>
             <hr className="h-line3" />
           </div>
-          <button className="start-btn">Get Started</button>
+          <a href="#sectionContact">
+            <button className="start-btn">Get Started</button>
+          </a>
         </div>
       </div>
     </div>

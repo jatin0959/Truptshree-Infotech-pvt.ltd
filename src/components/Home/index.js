@@ -15,7 +15,9 @@ const Home = () => {
             We are leading technology solutions providing company all over the
             world.
           </p>
-          <button className="start-btn">Get Started</button>
+          <a href="#sectionContact">
+            <button className="start-btn">Get Started</button>
+          </a>
         </div>
         <img
           src="https://res.cloudinary.com/dttnhad6r/image/upload/v1718200772/e64270625668f8bbc41650650d8c4f3c_kgaaun.png"

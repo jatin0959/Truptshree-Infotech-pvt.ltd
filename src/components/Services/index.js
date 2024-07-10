@@ -9,9 +9,11 @@ const Services = () => (
       <h2 className="services-page-heading">
         What Solutions We Provide to Our Valued Customers
       </h2>
-      <button className="get-start-button" type="button">
-        Get Started
-      </button>
+      <a href="#sectionContact">
+        <button className="get-start-button" type="button">
+          Get Started
+        </button>
+      </a>
     </div>
     <div className="services-page-cards-container">
       <div className="services-page-card">
