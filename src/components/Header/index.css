@@ -334,7 +334,7 @@
 .internship-button {
   background-image: linear-gradient(to right, #03228f, #4e95ed);
   color: #ffffff;
-  font-size: 16px;
+  font-size: 13px;
   font-family: "Roboto";
   border-radius: 10px;
   height: 38px;
@@ -343,6 +343,7 @@
   border-width: 0px;
   cursor: pointer;
   outline: none;
+  text-align: center;
   margin-right: 20px;
 }
 

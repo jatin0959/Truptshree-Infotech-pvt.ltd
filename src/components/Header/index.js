@@ -229,7 +229,7 @@ const Header = () => {
           </li>
         </ul>
         <Link to="/internship" className="internship-link">
-          <button className="internship-button">Internship</button>
+          <button className="internship-button">Get a quote</button>
         </Link>
         <button className="menu-button" onClick={() => changeToggleNav()}>
           <i class="fa-solid fa-bars"></i>
