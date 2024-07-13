@@ -35,7 +35,7 @@ const About = () => {
         <div className="about-section-2">
           <div class="card-container">
             <img
-              src="https://res.cloudinary.com/dttnhad6r/image/upload/v1718253147/9ec3b4a0f9905e926d72ec7961165c10_blnfgo.png"
+              src="https://res.cloudinary.com/dttnhad6r/image/upload/v1720874556/9ec3b4a0f9905e926d72ec7961165c10_hzwpju.png"
               alt="logo"
               className="icons"
             />
@@ -47,7 +47,7 @@ const About = () => {
           </div>
           <div class="card-container">
             <img
-              src="https://res.cloudinary.com/dttnhad6r/image/upload/v1718253696/04efad88a91ba5160d45ad44daea5ff4_fbbqub.png"
+              src="https://res.cloudinary.com/dttnhad6r/image/upload/v1720874557/04efad88a91ba5160d45ad44daea5ff4_gm36pb.png"
               alt="logo"
               className="icons"
             />
@@ -60,7 +60,7 @@ const About = () => {
 
           <div class="card-container">
             <img
-              src="https://res.cloudinary.com/dttnhad6r/image/upload/v1718253784/2d4a7a7ba1bbd15d0dde393ab6c9e5b7_ybb8q4.png"
+              src="https://res.cloudinary.com/dttnhad6r/image/upload/v1720874556/2d4a7a7ba1bbd15d0dde393ab6c9e5b7_uwhomb.png"
               alt="logo"
               className="icons"
             />
@@ -72,7 +72,7 @@ const About = () => {
           </div>
           <div class="card-container">
             <img
-              src="https://res.cloudinary.com/dttnhad6r/image/upload/v1718253861/84272eb37f011c0bc7292734d0f25421_cg5pg7.png"
+              src="https://res.cloudinary.com/dttnhad6r/image/upload/v1720874557/84272eb37f011c0bc7292734d0f25421_bciwho.png"
               alt="logo"
               className="icons"
             />
@@ -86,7 +86,7 @@ const About = () => {
       </div>
       <div className="about-section-3">
         <img
-          src="https://res.cloudinary.com/dttnhad6r/image/upload/v1718254682/10f4a5cd63ba0db57562523aada5942d_mpsy6o.png"
+          src="https://res.cloudinary.com/dttnhad6r/image/upload/v1720874630/10f4a5cd63ba0db57562523aada5942d_rpnjmi.png"
           alt="logo"
           className="about-img"
         />

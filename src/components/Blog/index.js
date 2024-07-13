@@ -5,7 +5,7 @@ const Blog = () => {
     <>
       <div className="blog-section" id="sectionBlog">
         <img
-          src="https://res.cloudinary.com/dttnhad6r/image/upload/v1718267574/6e00b822dc84df0a7b318b0d3ab3e380_skdoh4.png"
+          src="https://res.cloudinary.com/dttnhad6r/image/upload/v1720874183/6e00b822dc84df0a7b318b0d3ab3e380_mvdbd1.png"
           alt="blog-logo"
           className="blog-img"
         />
@@ -22,7 +22,7 @@ const Blog = () => {
           </p>
           <div className="blog-container">
             <img
-              src="https://res.cloudinary.com/dttnhad6r/image/upload/v1718268235/17831d7ed051a3bfca0d750c71afc65c_zgtzrz.png"
+              src="https://res.cloudinary.com/dttnhad6r/image/upload/v1720874252/17831d7ed051a3bfca0d750c71afc65c_qowmdk.png"
               alt="quote-logo"
               className="quote-img"
             />
@@ -34,7 +34,7 @@ const Blog = () => {
             </p>
             <div className="person-container">
               <img
-                src="https://res.cloudinary.com/dttnhad6r/image/upload/v1718268264/7918a139cb517e09e7ff3c9dd8b73041_sfdki4.png"
+                src="https://res.cloudinary.com/dttnhad6r/image/upload/v1720874253/7918a139cb517e09e7ff3c9dd8b73041_cajjg8.png"
                 alt="person-logo"
                 className="person-img"
               />

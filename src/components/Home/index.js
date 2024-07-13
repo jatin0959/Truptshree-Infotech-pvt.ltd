@@ -6,7 +6,7 @@ const Home = () => {
       <div className="body-section">
         <div className="body-content" id="sectionHome">
           <img
-            src="https://res.cloudinary.com/dttnhad6r/image/upload/v1718200772/e64270625668f8bbc41650650d8c4f3c_kgaaun.png"
+            src="https://res.cloudinary.com/dttnhad6r/image/upload/v1720874440/e64270625668f8bbc41650650d8c4f3c_rh5buu.png"
             className="home-mobile-img-logo"
             alt="img-logo"
           />
@@ -20,7 +20,7 @@ const Home = () => {
           </a>
         </div>
         <img
-          src="https://res.cloudinary.com/dttnhad6r/image/upload/v1718200772/e64270625668f8bbc41650650d8c4f3c_kgaaun.png"
+          src="https://res.cloudinary.com/dttnhad6r/image/upload/v1720874440/e64270625668f8bbc41650650d8c4f3c_rh5buu.png"
           className="home-desktop-img-logo"
           alt="img-logo"
         />
