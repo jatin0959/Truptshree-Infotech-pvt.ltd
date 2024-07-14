@@ -17,9 +17,9 @@ const Portfolios = () => {
           target="_blank"
         >
           <img
-            src="https://res.cloudinary.com/daxizvsge/image/upload/v1720874966/BitBox_logo1_s20ezj.png"
+            src="https://res.cloudinary.com/daxizvsge/image/upload/v1720887825/bitbox-logo_i0dfuf.webp"
             alt="project-link-img"
-            className="project-link-img"
+            className="project-link-img special"
           />
         </a>
 
@@ -36,12 +36,12 @@ const Portfolios = () => {
         </a>
 
         <a
-          className="project-link-item special"
+          className="project-link-item"
           href="https://www.alwaysliveyoga.com/"
           target="_blank"
         >
           <img
-            src="https://res.cloudinary.com/daxizvsge/image/upload/v1720875073/Untitled_20design_edited_fv2c34.png"
+            src="https://res.cloudinary.com/daxizvsge/image/upload/v1720888009/ed475d_a27c02a1f56b47dcacb931a70c966a04_mv2_zlhfuz.png"
             alt="project-link-img"
             className="project-link-img"
           />
