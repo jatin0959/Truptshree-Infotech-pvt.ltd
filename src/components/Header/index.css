@@ -331,7 +331,7 @@
   text-decoration: none;
 }
 
-.internship-button {
+.get-a-quote-button {
   background-image: linear-gradient(to right, #03228f, #4e95ed);
   color: #ffffff;
   font-size: 13px;
@@ -362,6 +362,10 @@
   display: none;
 }
 
+.internship-link {
+  text-decoration: none;
+}
+
 @keyframes slide-out {
   from {
     transform: translateX(0);
@@ -378,12 +382,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  .internship-link {
-    margin-left: auto;
+  .get-a-quote-button {
+    margin-right: 0px;
   }
 
-  .internship-button {
-    margin-right: 0px;
+  .get-quote-link {
+    margin-left: auto;
   }
 
   .large-header-navigations-container {
@@ -438,6 +442,7 @@
     border-right: none;
     border-left: none;
     padding-bottom: 15px;
+    padding-right: 5px;
   }
 
   .nav-link {

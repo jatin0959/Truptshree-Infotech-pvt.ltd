@@ -33,10 +33,11 @@ const Portfolios = () => (
             />
             <div className="portfolios-page-inner-2-card-contents">
               <h3 className="portfolios-page-inner-2-card-heading">
-                First Growing Process{" "}
+                Well Documentation
               </h3>
               <p className="portfolios-page-inner-2-card-description">
-                At vero eos et accusamus etiusto odio prasentium
+                Comprehensive documentation enhances understanding, facilitates
+                onboarding, and serves as a reference for future maintenance.
               </p>
             </div>
           </div>
@@ -52,7 +53,8 @@ const Portfolios = () => (
                 Clean Code
               </h3>
               <p className="portfolios-page-inner-2-card-description">
-                At vero eos et accusamus etiusto odio prasentium
+                Clean code improves readability, reduces bugs, and makes the
+                software easier to modify and extend.
               </p>
             </div>
           </div>
@@ -65,10 +67,11 @@ const Portfolios = () => (
             />
             <div className="portfolios-page-inner-2-card-contents">
               <h3 className="portfolios-page-inner-2-card-heading">
-                Well Documentation
+                First Growing process:
               </h3>
               <p className="portfolios-page-inner-2-card-description">
-                At vero eos et accusamus etiusto odio prasentium
+                A strong initial development process ensures robust foundations,
+                enabling scalable and adaptable solutions for future growth.
               </p>
             </div>
           </div>

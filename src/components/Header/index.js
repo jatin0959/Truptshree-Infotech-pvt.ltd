@@ -227,10 +227,19 @@ const Header = () => {
               Product
             </a>
           </li>
+
+          <li className="navigation-item">
+            <Link to="/internship" className="internship-link">
+              <a className="nav-link" href="#sectionAbout">
+                Internship
+              </a>
+            </Link>
+          </li>
         </ul>
-        <Link to="/internship" className="internship-link">
-          <button className="internship-button">Get a quote</button>
-        </Link>
+        <a href="#sectionContact" className="get-quote-link">
+          <button className="get-a-quote-button">Get a quote</button>
+        </a>
+
         <button className="menu-button" onClick={() => changeToggleNav()}>
           <i class="fa-solid fa-bars"></i>
         </button>
@@ -286,6 +295,13 @@ const Header = () => {
           <a className="nav-link" href="#sectionAbout">
             Product
           </a>
+        </li>
+        <li className="navigation-item">
+          <Link to="/internship" className="internship-link">
+            <a className="nav-link" href="#sectionAbout">
+              Internship
+            </a>
+          </Link>
         </li>
       </ul>
     </nav>
