@@ -174,11 +174,17 @@ const Header = () => {
   return (
     <nav className="header">
       <div className="header-inner-large">
-        <img
+        {/*<img
           src="https://res.cloudinary.com/daxizvsge/image/upload/v1720595613/Screenshot_2024-07-10_124251_yi16zd.png"
           alt="opam-logo"
           className="opam-logo"
-        />
+        />*/}
+        <div className="logo-head">
+          <div>
+          <img className="opam-logo" src="https://i.im.ge/2024/07/28/VJhrTS.WhatsApp-Image-2024-07-28-at-08-10-20-e9f79883.jpeg" alt="WhatsApp Image 2024 07 28 at 08 10 20 e9f79883"/>
+          </div>
+          <p className="header-heading">Opam <br></br> <span>Technologies</span> </p>
+        </div>
         <ul className="large-header-navigations-container">
           <li className="navigation-item">
             <a className="nav-link" href="#sectionHome">
