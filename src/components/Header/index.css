@@ -295,6 +295,24 @@
   width: 100%;
 }
 
+.header-heading{
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+  color:#90750F;
+}
+
+.logo-head{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+span{
+  color: #03228f;
+}
+
 .header-inner-large {
   width: 100%;
   display: flex;
@@ -304,8 +322,11 @@
 }
 
 .opam-logo {
-  width: 150px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  margin-left: 20px;
+
 }
 
 .large-header-navigations-container {
@@ -325,7 +346,6 @@
 
 .nav-link {
   font-size: 13px;
-  font-family: "Roboto";
   color: black;
   text-align: center;
   text-decoration: none;
@@ -335,7 +355,6 @@
   background-image: linear-gradient(to right, #03228f, #4e95ed);
   color: #ffffff;
   font-size: 13px;
-  font-family: "Roboto";
   border-radius: 10px;
   height: 38px;
   width: 100px;
