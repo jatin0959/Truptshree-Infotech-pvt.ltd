@@ -6,6 +6,7 @@ import "./App.css";
 import HomePage from "./components/HomePage";
 import PolicyPage from "./components/PoliciesPage";
 import InternshipPage from "./components/InternshipPage";
+import RegistrationPage from "./components/RegistrationPage";
 /*const [loading, setLoading] = useState(true);
   const spinner = document.getElementById("spinner");
   if (spinner) {
@@ -21,6 +22,7 @@ const App = () => (
     <Route exact path="/" element={<HomePage />} />
     <Route exact path="/policies" element={<PolicyPage />} />
     <Route exact path="/internship" element={<InternshipPage />} />
+    <Route exact path="/internship/register" element={<RegistrationPage />} />
   </Routes>
 );
 export default App;

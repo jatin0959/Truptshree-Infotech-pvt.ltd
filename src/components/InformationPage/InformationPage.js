@@ -113,8 +113,12 @@ const InformationPage = () => {
         <div className="info-container">
           <h1>News Letter</h1>
           <p>
-            We denounce with righteous indignation in and dislike men who are so
-            beguiled and to demo realized.
+            Subscribe to our mailing list to receive monthly newsletters with
+            the latest company news and industry trends, exclusive offers, and
+            early-bird sales. Stay informed about upcoming events, product
+            launches, and updates. Additionally, you'll get educational content
+            like tutorials and tips to maximize your use of our products and
+            services. Stay connected with Opam Technologies!
           </p>
           <div className="email-newsletter">
             <input

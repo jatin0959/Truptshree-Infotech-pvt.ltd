@@ -41,8 +41,9 @@ const About = () => {
             />
             <h1>High-quality Code</h1>
             <p>
-              At vero eos et accusamus etiusto odio praesentium accusamus
-              etiusto.
+              Experience innovation with our top-tier code, designed for peak
+              performance and seamless integration. Elevate your digital
+              presence with industry-leading solutions.
             </p>
           </div>
           <div class="card-container">
@@ -53,8 +54,9 @@ const About = () => {
             />
             <h1>Full-stack teams</h1>
             <p>
-              At vero eos et accusamus etiusto odio praesentium accusamus
-              etiusto.
+              Unlock potential with our multidisciplinary teams. From stunning
+              front-ends to robust back-ends, we create impactful digital
+              experiences.
             </p>
           </div>
 
@@ -66,8 +68,9 @@ const About = () => {
             />
             <h1>Agile Approach</h1>
             <p>
-              At vero eos et accusamus etiusto odio praesentium accusamus
-              etiusto.
+              Thrive with our agile methodology. Stay ahead with dynamic
+              strategies that evolve with your needs, driving continuous
+              innovation.
             </p>
           </div>
           <div class="card-container">
@@ -78,8 +81,9 @@ const About = () => {
             />
             <h1>Flexibility</h1>
             <p>
-              At vero eos et accusamus etiusto odio praesentium accusamus
-              etiusto.
+              Achieve unmatched adaptability with our tailored solutions.
+              Whether scaling or navigating change, we keep you at the
+              forefront.
             </p>
           </div>
         </div>

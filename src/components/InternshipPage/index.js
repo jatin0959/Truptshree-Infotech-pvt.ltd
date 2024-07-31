@@ -9,7 +9,9 @@ const InternshipPage = () => (
         <p className="internship-home-description">
           Providing internships to students
         </p>
-        <button className="internship-register-button">Register Here</button>
+        <Link to="/internship/register">
+          <button className="internship-register-button">Register Here</button>
+        </Link>
       </div>
     </div>
 
